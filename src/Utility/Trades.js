@@ -1,0 +1,29 @@
+export const TRADES = [
+    {
+        id:1,
+        companyName:"GBPUSD",
+        type:1,
+        gain:0.12,
+        balance:56,
+        currencyType:"USD",
+        profit:1
+    },
+    {
+        id:2,
+        companyName:"USDJPY",
+        type:1,
+        gain:0.52,
+        balance:0.09,
+        currencyType:"USD",
+        profit:-1
+    },
+    {
+        id:3,
+        companyName:"EURUSD",
+        type:3,
+        gain:0.34,
+        balance:1.09,
+        currencyType:"USD",
+        profit:-1
+    }
+]

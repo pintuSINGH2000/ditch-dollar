@@ -1,0 +1,68 @@
+.container {
+  border-radius: 12px;
+  border: 2px solid rgba(242, 244, 247, 1);
+  max-width: 793px;
+  margin: 24px;
+  font-family: "Inter", sans-serif;
+  padding: 16px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: rgba(52, 64, 84, 1);
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  color: rgba(173, 142, 221, 1);
+  gap: 8px;
+  padding: 4px 8px 4px 8px;
+  cursor: pointer;
+}
+
+.downloadIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.filter {
+  display: flex;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(152, 162, 179, 1);
+  align-items: center;
+}
+
+.filterMenu {
+  width: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.active {
+  border-radius: 8px;
+  background: rgba(241, 235, 249, 1);
+  color: rgba(29, 41, 57, 1);
+  padding: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        margin: 12px;
+    }
+}
